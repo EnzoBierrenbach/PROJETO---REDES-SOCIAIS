@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Monomakh&family=Noto+Serif+Hentaigana:wght@200..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sarala:wght@400;700&family=Sixtyfour+Convergence&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.minhafoto{
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.281);
+    margin-top: 40px;
+    width: 200px;
+    border-radius: 60%;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #265C4B;
+}
+main{
+    border: 1px solid black;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border-radius: 40px;
+    height: 750px;
+    width: 450px;
+    background-color:#589A8D;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+h1{
+    
+    font-size: 40px;
+    color:#c6e7df;
+    margin-top: 20px;
+    text-align: center;
+}
+div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+a{
+  border: 1px solid black;
+    font: bolder;
+    font-size: 20px;
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.911);
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    width: 350px;
+    background-color:#007566 ;
+    color: black;
+    transition: 1s;
+}
+a:hover{
+    transition: 1s;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.281);
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 70px;
+    width: 350px;
+    background-color:#589A8D; ;
+    color: white;
+    cursor: pointer;
+}
+p{
+    margin-top: 3px;
+    color: #d2e5e0;
+    text-align: center;
+}
+.seta{
+    margin-top: 10px;
+    width: 50px;
+    color: white;
+}
